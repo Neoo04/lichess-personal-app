@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F52BCFD2ADEC12900324666 /* lichess_personal_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BCFC2ADEC12900324666 /* lichess_personal_appApp.swift */; };
+		8F52BCFF2ADEC12900324666 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BCFE2ADEC12900324666 /* HomeView.swift */; };
+		8F52BD012ADEC12900324666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F52BD002ADEC12900324666 /* Assets.xcassets */; };
+		8F52BD042ADEC12900324666 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F52BD032ADEC12900324666 /* Preview Assets.xcassets */; };
+		8F52BD0E2ADEC12A00324666 /* lichess_personal_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD0D2ADEC12A00324666 /* lichess_personal_appTests.swift */; };
+		8F52BD182ADEC12A00324666 /* lichess_personal_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD172ADEC12A00324666 /* lichess_personal_appUITests.swift */; };
+		8F52BD1A2ADEC12A00324666 /* lichess_personal_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD192ADEC12A00324666 /* lichess_personal_appUITestsLaunchTests.swift */; };
+		8F52BD2E2ADEC80300324666 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD2D2ADEC80300324666 /* Container.swift */; };
+		8F52BD302ADEC98500324666 /* DependencyInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD2F2ADEC98500324666 /* DependencyInitializer.swift */; };
+		8F52BD332ADECCF100324666 /* MainNavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD322ADECCF100324666 /* MainNavigationManager.swift */; };
+		8F52BD362ADECDA700324666 /* NavigationContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD352ADECDA700324666 /* NavigationContracts.swift */; };
+		8F52BD382ADED03000324666 /* Destinaitons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD372ADED03000324666 /* Destinaitons.swift */; };
+		8F52BD3A2ADED9EE00324666 /* RootMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD392ADED9EE00324666 /* RootMainView.swift */; };
+		8F52BD3C2ADEDA9600324666 /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD3B2ADEDA9600324666 /* Inject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F52BD0A2ADEC12A00324666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F52BCF12ADEC12900324666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F52BCF82ADEC12900324666;
+			remoteInfo = "lichess-personal-app";
+		};
+		8F52BD142ADEC12A00324666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F52BCF12ADEC12900324666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F52BCF82ADEC12900324666;
+			remoteInfo = "lichess-personal-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F52BCF92ADEC12900324666 /* lichess-personal-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lichess-personal-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F52BCFC2ADEC12900324666 /* lichess_personal_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lichess_personal_appApp.swift; sourceTree = "<group>"; };
+		8F52BCFE2ADEC12900324666 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8F52BD002ADEC12900324666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F52BD032ADEC12900324666 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8F52BD092ADEC12A00324666 /* lichess-personal-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lichess-personal-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F52BD0D2ADEC12A00324666 /* lichess_personal_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lichess_personal_appTests.swift; sourceTree = "<group>"; };
+		8F52BD132ADEC12A00324666 /* lichess-personal-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lichess-personal-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F52BD172ADEC12A00324666 /* lichess_personal_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lichess_personal_appUITests.swift; sourceTree = "<group>"; };
+		8F52BD192ADEC12A00324666 /* lichess_personal_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lichess_personal_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8F52BD2D2ADEC80300324666 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		8F52BD2F2ADEC98500324666 /* DependencyInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInitializer.swift; sourceTree = "<group>"; };
+		8F52BD322ADECCF100324666 /* MainNavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationManager.swift; sourceTree = "<group>"; };
+		8F52BD352ADECDA700324666 /* NavigationContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContracts.swift; sourceTree = "<group>"; };
+		8F52BD372ADED03000324666 /* Destinaitons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destinaitons.swift; sourceTree = "<group>"; };
+		8F52BD392ADED9EE00324666 /* RootMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootMainView.swift; sourceTree = "<group>"; };
+		8F52BD3B2ADEDA9600324666 /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F52BCF62ADEC12900324666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52BD062ADEC12A00324666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52BD102ADEC12A00324666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F52BCF02ADEC12900324666 = {
+			isa = PBXGroup;
+			children = (
+				8F52BCFB2ADEC12900324666 /* lichess-personal-app */,
+				8F52BD0C2ADEC12A00324666 /* lichess-personal-appTests */,
+				8F52BD162ADEC12A00324666 /* lichess-personal-appUITests */,
+				8F52BCFA2ADEC12900324666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F52BCFA2ADEC12900324666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BCF92ADEC12900324666 /* lichess-personal-app.app */,
+				8F52BD092ADEC12A00324666 /* lichess-personal-appTests.xctest */,
+				8F52BD132ADEC12A00324666 /* lichess-personal-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F52BCFB2ADEC12900324666 /* lichess-personal-app */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD342ADECD9100324666 /* Navigation */,
+				8F52BD312ADECCD900324666 /* Main */,
+				8F52BCFC2ADEC12900324666 /* lichess_personal_appApp.swift */,
+				8F52BD2A2ADEC76800324666 /* DependencyInjection */,
+				8F52BD282ADEC62600324666 /* Modules */,
+				8F52BD002ADEC12900324666 /* Assets.xcassets */,
+				8F52BD022ADEC12900324666 /* Preview Content */,
+			);
+			path = "lichess-personal-app";
+			sourceTree = "<group>";
+		};
+		8F52BD022ADEC12900324666 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD032ADEC12900324666 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8F52BD0C2ADEC12A00324666 /* lichess-personal-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD0D2ADEC12A00324666 /* lichess_personal_appTests.swift */,
+			);
+			path = "lichess-personal-appTests";
+			sourceTree = "<group>";
+		};
+		8F52BD162ADEC12A00324666 /* lichess-personal-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD172ADEC12A00324666 /* lichess_personal_appUITests.swift */,
+				8F52BD192ADEC12A00324666 /* lichess_personal_appUITestsLaunchTests.swift */,
+			);
+			path = "lichess-personal-appUITests";
+			sourceTree = "<group>";
+		};
+		8F52BD282ADEC62600324666 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD3E2ADEDCB800324666 /* Home */,
+				8F52BCFE2ADEC12900324666 /* HomeView.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8F52BD2A2ADEC76800324666 /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD2F2ADEC98500324666 /* DependencyInitializer.swift */,
+				8F52BD2D2ADEC80300324666 /* Container.swift */,
+				8F52BD3B2ADEDA9600324666 /* Inject.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		8F52BD312ADECCD900324666 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD322ADECCF100324666 /* MainNavigationManager.swift */,
+				8F52BD372ADED03000324666 /* Destinaitons.swift */,
+				8F52BD392ADED9EE00324666 /* RootMainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8F52BD342ADECD9100324666 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD352ADECDA700324666 /* NavigationContracts.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		8F52BD3E2ADEDCB800324666 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F52BCF82ADEC12900324666 /* lichess-personal-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F52BD1D2ADEC12A00324666 /* Build configuration list for PBXNativeTarget "lichess-personal-app" */;
+			buildPhases = (
+				8F52BCF52ADEC12900324666 /* Sources */,
+				8F52BCF62ADEC12900324666 /* Frameworks */,
+				8F52BCF72ADEC12900324666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lichess-personal-app";
+			productName = "lichess-personal-app";
+			productReference = 8F52BCF92ADEC12900324666 /* lichess-personal-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F52BD082ADEC12A00324666 /* lichess-personal-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F52BD202ADEC12A00324666 /* Build configuration list for PBXNativeTarget "lichess-personal-appTests" */;
+			buildPhases = (
+				8F52BD052ADEC12A00324666 /* Sources */,
+				8F52BD062ADEC12A00324666 /* Frameworks */,
+				8F52BD072ADEC12A00324666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F52BD0B2ADEC12A00324666 /* PBXTargetDependency */,
+			);
+			name = "lichess-personal-appTests";
+			productName = "lichess-personal-appTests";
+			productReference = 8F52BD092ADEC12A00324666 /* lichess-personal-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8F52BD122ADEC12A00324666 /* lichess-personal-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F52BD232ADEC12A00324666 /* Build configuration list for PBXNativeTarget "lichess-personal-appUITests" */;
+			buildPhases = (
+				8F52BD0F2ADEC12A00324666 /* Sources */,
+				8F52BD102ADEC12A00324666 /* Frameworks */,
+				8F52BD112ADEC12A00324666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F52BD152ADEC12A00324666 /* PBXTargetDependency */,
+			);
+			name = "lichess-personal-appUITests";
+			productName = "lichess-personal-appUITests";
+			productReference = 8F52BD132ADEC12A00324666 /* lichess-personal-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F52BCF12ADEC12900324666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8F52BCF82ADEC12900324666 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8F52BD082ADEC12A00324666 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8F52BCF82ADEC12900324666;
+					};
+					8F52BD122ADEC12A00324666 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8F52BCF82ADEC12900324666;
+					};
+				};
+			};
+			buildConfigurationList = 8F52BCF42ADEC12900324666 /* Build configuration list for PBXProject "lichess-personal-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F52BCF02ADEC12900324666;
+			productRefGroup = 8F52BCFA2ADEC12900324666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F52BCF82ADEC12900324666 /* lichess-personal-app */,
+				8F52BD082ADEC12A00324666 /* lichess-personal-appTests */,
+				8F52BD122ADEC12A00324666 /* lichess-personal-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F52BCF72ADEC12900324666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F52BD042ADEC12900324666 /* Preview Assets.xcassets in Resources */,
+				8F52BD012ADEC12900324666 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52BD072ADEC12A00324666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52BD112ADEC12A00324666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F52BCF52ADEC12900324666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F52BD382ADED03000324666 /* Destinaitons.swift in Sources */,
+				8F52BD3A2ADED9EE00324666 /* RootMainView.swift in Sources */,
+				8F52BD3C2ADEDA9600324666 /* Inject.swift in Sources */,
+				8F52BCFF2ADEC12900324666 /* HomeView.swift in Sources */,
+				8F52BD362ADECDA700324666 /* NavigationContracts.swift in Sources */,
+				8F52BD302ADEC98500324666 /* DependencyInitializer.swift in Sources */,
+				8F52BD332ADECCF100324666 /* MainNavigationManager.swift in Sources */,
+				8F52BD2E2ADEC80300324666 /* Container.swift in Sources */,
+				8F52BCFD2ADEC12900324666 /* lichess_personal_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52BD052ADEC12A00324666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F52BD0E2ADEC12A00324666 /* lichess_personal_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F52BD0F2ADEC12A00324666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F52BD1A2ADEC12A00324666 /* lichess_personal_appUITestsLaunchTests.swift in Sources */,
+				8F52BD182ADEC12A00324666 /* lichess_personal_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F52BD0B2ADEC12A00324666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F52BCF82ADEC12900324666 /* lichess-personal-app */;
+			targetProxy = 8F52BD0A2ADEC12A00324666 /* PBXContainerItemProxy */;
+		};
+		8F52BD152ADEC12A00324666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F52BCF82ADEC12900324666 /* lichess-personal-app */;
+			targetProxy = 8F52BD142ADEC12A00324666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F52BD1B2ADEC12A00324666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F52BD1C2ADEC12A00324666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F52BD1E2ADEC12A00324666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lichess-personal-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "training-cincinnati-ai.lichess-personal-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F52BD1F2ADEC12A00324666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lichess-personal-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "training-cincinnati-ai.lichess-personal-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F52BD212ADEC12A00324666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "training-cincinnati-ai.lichess-personal-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lichess-personal-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lichess-personal-app";
+			};
+			name = Debug;
+		};
+		8F52BD222ADEC12A00324666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "training-cincinnati-ai.lichess-personal-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lichess-personal-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lichess-personal-app";
+			};
+			name = Release;
+		};
+		8F52BD242ADEC12A00324666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "training-cincinnati-ai.lichess-personal-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lichess-personal-app";
+			};
+			name = Debug;
+		};
+		8F52BD252ADEC12A00324666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "training-cincinnati-ai.lichess-personal-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "lichess-personal-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F52BCF42ADEC12900324666 /* Build configuration list for PBXProject "lichess-personal-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F52BD1B2ADEC12A00324666 /* Debug */,
+				8F52BD1C2ADEC12A00324666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F52BD1D2ADEC12A00324666 /* Build configuration list for PBXNativeTarget "lichess-personal-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F52BD1E2ADEC12A00324666 /* Debug */,
+				8F52BD1F2ADEC12A00324666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F52BD202ADEC12A00324666 /* Build configuration list for PBXNativeTarget "lichess-personal-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F52BD212ADEC12A00324666 /* Debug */,
+				8F52BD222ADEC12A00324666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F52BD232ADEC12A00324666 /* Build configuration list for PBXNativeTarget "lichess-personal-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F52BD242ADEC12A00324666 /* Debug */,
+				8F52BD252ADEC12A00324666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F52BCF12ADEC12900324666 /* Project object */;
+}
