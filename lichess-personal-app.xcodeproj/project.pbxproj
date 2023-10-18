@@ -10,7 +10,6 @@
 		8F52BCFD2ADEC12900324666 /* lichess_personal_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BCFC2ADEC12900324666 /* lichess_personal_appApp.swift */; };
 		8F52BCFF2ADEC12900324666 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BCFE2ADEC12900324666 /* HomeView.swift */; };
 		8F52BD012ADEC12900324666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F52BD002ADEC12900324666 /* Assets.xcassets */; };
-		8F52BD042ADEC12900324666 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F52BD032ADEC12900324666 /* Preview Assets.xcassets */; };
 		8F52BD0E2ADEC12A00324666 /* lichess_personal_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD0D2ADEC12A00324666 /* lichess_personal_appTests.swift */; };
 		8F52BD182ADEC12A00324666 /* lichess_personal_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD172ADEC12A00324666 /* lichess_personal_appUITests.swift */; };
 		8F52BD1A2ADEC12A00324666 /* lichess_personal_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD192ADEC12A00324666 /* lichess_personal_appUITestsLaunchTests.swift */; };
@@ -21,6 +20,15 @@
 		8F52BD382ADED03000324666 /* Destinaitons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD372ADED03000324666 /* Destinaitons.swift */; };
 		8F52BD3A2ADED9EE00324666 /* RootMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD392ADED9EE00324666 /* RootMainView.swift */; };
 		8F52BD3C2ADEDA9600324666 /* Inject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD3B2ADEDA9600324666 /* Inject.swift */; };
+		8F52BD402ADEEBCC00324666 /* HomeDisplayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD3F2ADEEBCC00324666 /* HomeDisplayViewModel.swift */; };
+		8F52BD432ADEF1F100324666 /* lichessTopTenRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD422ADEF1F100324666 /* lichessTopTenRepository.swift */; };
+		8F52BD472ADEF58900324666 /* LichessApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD462ADEF58900324666 /* LichessApiResponse.swift */; };
+		8F52BD4A2ADF050600324666 /* ApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD492ADF050600324666 /* ApiConfiguration.swift */; };
+		8F52BD4D2ADF062E00324666 /* LichessTopTenDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD4C2ADF062E00324666 /* LichessTopTenDataSource.swift */; };
+		8F52BD502ADF091200324666 /* CoreDataPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD4F2ADF091200324666 /* CoreDataPlayer.swift */; };
+		8F52BD522ADF164E00324666 /* CoreDataPlayerPlusProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD512ADF164E00324666 /* CoreDataPlayerPlusProperties.swift */; };
+		8F52BD552ADF431100324666 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD542ADF431100324666 /* Persistance.swift */; };
+		8FC163082ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FC163062ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +53,6 @@
 		8F52BCFC2ADEC12900324666 /* lichess_personal_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lichess_personal_appApp.swift; sourceTree = "<group>"; };
 		8F52BCFE2ADEC12900324666 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8F52BD002ADEC12900324666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F52BD032ADEC12900324666 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8F52BD092ADEC12A00324666 /* lichess-personal-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lichess-personal-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F52BD0D2ADEC12A00324666 /* lichess_personal_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lichess_personal_appTests.swift; sourceTree = "<group>"; };
 		8F52BD132ADEC12A00324666 /* lichess-personal-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lichess-personal-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +65,15 @@
 		8F52BD372ADED03000324666 /* Destinaitons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destinaitons.swift; sourceTree = "<group>"; };
 		8F52BD392ADED9EE00324666 /* RootMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootMainView.swift; sourceTree = "<group>"; };
 		8F52BD3B2ADEDA9600324666 /* Inject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inject.swift; sourceTree = "<group>"; };
+		8F52BD3F2ADEEBCC00324666 /* HomeDisplayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDisplayViewModel.swift; sourceTree = "<group>"; };
+		8F52BD422ADEF1F100324666 /* lichessTopTenRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lichessTopTenRepository.swift; sourceTree = "<group>"; };
+		8F52BD462ADEF58900324666 /* LichessApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LichessApiResponse.swift; sourceTree = "<group>"; };
+		8F52BD492ADF050600324666 /* ApiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfiguration.swift; sourceTree = "<group>"; };
+		8F52BD4C2ADF062E00324666 /* LichessTopTenDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LichessTopTenDataSource.swift; sourceTree = "<group>"; };
+		8F52BD4F2ADF091200324666 /* CoreDataPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPlayer.swift; sourceTree = "<group>"; };
+		8F52BD512ADF164E00324666 /* CoreDataPlayerPlusProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPlayerPlusProperties.swift; sourceTree = "<group>"; };
+		8F52BD542ADF431100324666 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		8FC163072ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "lichess-personal-app.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,23 +124,22 @@
 		8F52BCFB2ADEC12900324666 /* lichess-personal-app */ = {
 			isa = PBXGroup;
 			children = (
+				8FC163052ADFDB26004FEA7E /* Preview Content */,
+				8F52BD532ADF42FD00324666 /* Persistance */,
+				8F52BD4E2ADF076000324666 /* CoreData */,
+				8F52BD4B2ADF060900324666 /* LocalDataSources */,
+				8F52BD482ADF04EE00324666 /* ApiConfiguration */,
+				8F52BD442ADEF56200324666 /* Model */,
+				8F52BD412ADEF1BF00324666 /* Repositories */,
 				8F52BD342ADECD9100324666 /* Navigation */,
 				8F52BD312ADECCD900324666 /* Main */,
 				8F52BCFC2ADEC12900324666 /* lichess_personal_appApp.swift */,
 				8F52BD2A2ADEC76800324666 /* DependencyInjection */,
 				8F52BD282ADEC62600324666 /* Modules */,
 				8F52BD002ADEC12900324666 /* Assets.xcassets */,
-				8F52BD022ADEC12900324666 /* Preview Content */,
+				8FC163062ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodeld */,
 			);
 			path = "lichess-personal-app";
-			sourceTree = "<group>";
-		};
-		8F52BD022ADEC12900324666 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				8F52BD032ADEC12900324666 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		8F52BD0C2ADEC12A00324666 /* lichess-personal-appTests */ = {
@@ -148,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				8F52BD3E2ADEDCB800324666 /* Home */,
-				8F52BCFE2ADEC12900324666 /* HomeView.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -184,8 +198,66 @@
 		8F52BD3E2ADEDCB800324666 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				8F52BCFE2ADEC12900324666 /* HomeView.swift */,
+				8F52BD3F2ADEEBCC00324666 /* HomeDisplayViewModel.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		8F52BD412ADEF1BF00324666 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD422ADEF1F100324666 /* lichessTopTenRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		8F52BD442ADEF56200324666 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD462ADEF58900324666 /* LichessApiResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F52BD482ADF04EE00324666 /* ApiConfiguration */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD492ADF050600324666 /* ApiConfiguration.swift */,
+			);
+			path = ApiConfiguration;
+			sourceTree = "<group>";
+		};
+		8F52BD4B2ADF060900324666 /* LocalDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD4C2ADF062E00324666 /* LichessTopTenDataSource.swift */,
+			);
+			path = LocalDataSources;
+			sourceTree = "<group>";
+		};
+		8F52BD4E2ADF076000324666 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD4F2ADF091200324666 /* CoreDataPlayer.swift */,
+				8F52BD512ADF164E00324666 /* CoreDataPlayerPlusProperties.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		8F52BD532ADF42FD00324666 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				8F52BD542ADF431100324666 /* Persistance.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		8FC163052ADFDB26004FEA7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,7 +364,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F52BD042ADEC12900324666 /* Preview Assets.xcassets in Resources */,
 				8F52BD012ADEC12900324666 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,10 +390,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F52BD382ADED03000324666 /* Destinaitons.swift in Sources */,
+				8FC163082ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodeld in Sources */,
+				8F52BD432ADEF1F100324666 /* lichessTopTenRepository.swift in Sources */,
+				8F52BD4D2ADF062E00324666 /* LichessTopTenDataSource.swift in Sources */,
 				8F52BD3A2ADED9EE00324666 /* RootMainView.swift in Sources */,
+				8F52BD402ADEEBCC00324666 /* HomeDisplayViewModel.swift in Sources */,
+				8F52BD4A2ADF050600324666 /* ApiConfiguration.swift in Sources */,
+				8F52BD552ADF431100324666 /* Persistance.swift in Sources */,
+				8F52BD522ADF164E00324666 /* CoreDataPlayerPlusProperties.swift in Sources */,
 				8F52BD3C2ADEDA9600324666 /* Inject.swift in Sources */,
 				8F52BCFF2ADEC12900324666 /* HomeView.swift in Sources */,
 				8F52BD362ADECDA700324666 /* NavigationContracts.swift in Sources */,
+				8F52BD472ADEF58900324666 /* LichessApiResponse.swift in Sources */,
+				8F52BD502ADF091200324666 /* CoreDataPlayer.swift in Sources */,
 				8F52BD302ADEC98500324666 /* DependencyInitializer.swift in Sources */,
 				8F52BD332ADECCF100324666 /* MainNavigationManager.swift in Sources */,
 				8F52BD2E2ADEC80300324666 /* Container.swift in Sources */,
@@ -645,6 +725,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8FC163062ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8FC163072ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodel */,
+			);
+			currentVersion = 8FC163072ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodel */;
+			path = "lichess-personal-app.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8F52BCF12ADEC12900324666 /* Project object */;
 }
