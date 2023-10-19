@@ -18,10 +18,10 @@ class DependencyInitializer {
         container.register(UserDefaults.self) { UserDefaults.standard }
         container.register(URLSession.self) { URLSession.shared }
         container.register(JSONDecoder.self) { JSONDecoder() }
-        container.register(NSManagedObjectContext.self) { PersistenceController.shared.container.viewContext }
         container.register(LichessTopTenRepositoryContract.self) { LichessTopTenRepository() }
-        container.register(LichessTopTenSourceContract.self) { LichessTopTenSource() }
+        container.register(LichessSelectedPlayerRepositoryContract.self) { LichessSelectedPlayerRepository() }
         container.register(HomeDisplayViewModel.self) { HomeDisplayViewModel() }
+        container.register(PlayerDetailsViewModel.self) {PlayerDetailsViewModel()}
         let homeDisplayViewModel = HomeDisplayViewModel()
         container.register(HomeDisplayViewModel.self) { homeDisplayViewModel }
 

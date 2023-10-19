@@ -10,7 +10,10 @@ class HomeDisplayViewModel: ObservableObject {
     @Inject
     private var repository: any LichessTopTenRepositoryContract
 
-    @Published var state: PlayersStete = .none
+    @Inject
+    private var lichessDetailedPlayerRepository: any LichessSelectedPlayerRepositoryContract
+
+    @Published var state: PlayersState = .none
 
     func fetchSpecies() {
         if case .success = state {
@@ -38,12 +41,13 @@ class HomeDisplayViewModel: ObservableObject {
             .store(in: &subscriptions)
     }
     
-    func onSelectedplayer(_ player: Player) {
-        
+    func onSelectedplayer(_ playerId: String) {
+        lichessDetailedPlayerRepository.assignSelectedplayer(playerId)
+        self.navigationDelegate.push(destination: .playerDetails)
     }
     
 }
 
-enum PlayersStete {
+enum PlayersState {
     case none, loading, error, success(withPlayers: [Player])
 }

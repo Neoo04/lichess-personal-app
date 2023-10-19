@@ -34,7 +34,7 @@ struct HomeView: View {
     func produceSuccessView(withPlayers players: [Player]) -> some View {
         List(players) { player in
             Button {
-                viewModel.onSelectedplayer(player)
+                viewModel.onSelectedplayer(player.id)
             } label: {
                 Text(player.id)
             }

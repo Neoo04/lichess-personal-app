@@ -5,6 +5,6 @@ struct LichessApiResponse: Decodable {
 }
 
 struct Player: Codable, Identifiable {
-    let name: String
-    var id: String { name }
+    let username: String
+    var id: String { username }
 }

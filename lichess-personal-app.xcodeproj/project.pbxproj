@@ -25,9 +25,10 @@
 		8F52BD472ADEF58900324666 /* LichessApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD462ADEF58900324666 /* LichessApiResponse.swift */; };
 		8F52BD4A2ADF050600324666 /* ApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD492ADF050600324666 /* ApiConfiguration.swift */; };
 		8F52BD4D2ADF062E00324666 /* LichessTopTenDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD4C2ADF062E00324666 /* LichessTopTenDataSource.swift */; };
-		8F52BD502ADF091200324666 /* CoreDataPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD4F2ADF091200324666 /* CoreDataPlayer.swift */; };
-		8F52BD522ADF164E00324666 /* CoreDataPlayerPlusProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD512ADF164E00324666 /* CoreDataPlayerPlusProperties.swift */; };
-		8F52BD552ADF431100324666 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F52BD542ADF431100324666 /* Persistance.swift */; };
+		8FB3275B2AE01FCD0052EE71 /* PlayerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB3275A2AE01FCD0052EE71 /* PlayerDetailsView.swift */; };
+		8FB3275D2AE01FE90052EE71 /* PlayerDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB3275C2AE01FE90052EE71 /* PlayerDetailsViewModel.swift */; };
+		8FB327602AE0309C0052EE71 /* DetailedPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB3275F2AE0309C0052EE71 /* DetailedPlayer.swift */; };
+		8FB327622AE034230052EE71 /* lichessSelectedPlayerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB327612AE034230052EE71 /* lichessSelectedPlayerRepository.swift */; };
 		8FC163082ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FC163062ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
@@ -70,9 +71,10 @@
 		8F52BD462ADEF58900324666 /* LichessApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LichessApiResponse.swift; sourceTree = "<group>"; };
 		8F52BD492ADF050600324666 /* ApiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfiguration.swift; sourceTree = "<group>"; };
 		8F52BD4C2ADF062E00324666 /* LichessTopTenDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LichessTopTenDataSource.swift; sourceTree = "<group>"; };
-		8F52BD4F2ADF091200324666 /* CoreDataPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPlayer.swift; sourceTree = "<group>"; };
-		8F52BD512ADF164E00324666 /* CoreDataPlayerPlusProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataPlayerPlusProperties.swift; sourceTree = "<group>"; };
-		8F52BD542ADF431100324666 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		8FB3275A2AE01FCD0052EE71 /* PlayerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsView.swift; sourceTree = "<group>"; };
+		8FB3275C2AE01FE90052EE71 /* PlayerDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewModel.swift; sourceTree = "<group>"; };
+		8FB3275F2AE0309C0052EE71 /* DetailedPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPlayer.swift; sourceTree = "<group>"; };
+		8FB327612AE034230052EE71 /* lichessSelectedPlayerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lichessSelectedPlayerRepository.swift; sourceTree = "<group>"; };
 		8FC163072ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "lichess-personal-app.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,8 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				8FC163052ADFDB26004FEA7E /* Preview Content */,
-				8F52BD532ADF42FD00324666 /* Persistance */,
-				8F52BD4E2ADF076000324666 /* CoreData */,
 				8F52BD4B2ADF060900324666 /* LocalDataSources */,
 				8F52BD482ADF04EE00324666 /* ApiConfiguration */,
 				8F52BD442ADEF56200324666 /* Model */,
@@ -162,6 +162,7 @@
 		8F52BD282ADEC62600324666 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				8FB3275E2AE01FF90052EE71 /* PlayerDetails */,
 				8F52BD3E2ADEDCB800324666 /* Home */,
 			);
 			path = Modules;
@@ -208,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				8F52BD422ADEF1F100324666 /* lichessTopTenRepository.swift */,
+				8FB327612AE034230052EE71 /* lichessSelectedPlayerRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -216,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				8F52BD462ADEF58900324666 /* LichessApiResponse.swift */,
+				8FB3275F2AE0309C0052EE71 /* DetailedPlayer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,21 +239,13 @@
 			path = LocalDataSources;
 			sourceTree = "<group>";
 		};
-		8F52BD4E2ADF076000324666 /* CoreData */ = {
+		8FB3275E2AE01FF90052EE71 /* PlayerDetails */ = {
 			isa = PBXGroup;
 			children = (
-				8F52BD4F2ADF091200324666 /* CoreDataPlayer.swift */,
-				8F52BD512ADF164E00324666 /* CoreDataPlayerPlusProperties.swift */,
+				8FB3275C2AE01FE90052EE71 /* PlayerDetailsViewModel.swift */,
+				8FB3275A2AE01FCD0052EE71 /* PlayerDetailsView.swift */,
 			);
-			path = CoreData;
-			sourceTree = "<group>";
-		};
-		8F52BD532ADF42FD00324666 /* Persistance */ = {
-			isa = PBXGroup;
-			children = (
-				8F52BD542ADF431100324666 /* Persistance.swift */,
-			);
-			path = Persistance;
+			path = PlayerDetails;
 			sourceTree = "<group>";
 		};
 		8FC163052ADFDB26004FEA7E /* Preview Content */ = {
@@ -389,21 +384,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB3275B2AE01FCD0052EE71 /* PlayerDetailsView.swift in Sources */,
 				8F52BD382ADED03000324666 /* Destinaitons.swift in Sources */,
 				8FC163082ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodeld in Sources */,
 				8F52BD432ADEF1F100324666 /* lichessTopTenRepository.swift in Sources */,
+				8FB327602AE0309C0052EE71 /* DetailedPlayer.swift in Sources */,
 				8F52BD4D2ADF062E00324666 /* LichessTopTenDataSource.swift in Sources */,
 				8F52BD3A2ADED9EE00324666 /* RootMainView.swift in Sources */,
 				8F52BD402ADEEBCC00324666 /* HomeDisplayViewModel.swift in Sources */,
 				8F52BD4A2ADF050600324666 /* ApiConfiguration.swift in Sources */,
-				8F52BD552ADF431100324666 /* Persistance.swift in Sources */,
-				8F52BD522ADF164E00324666 /* CoreDataPlayerPlusProperties.swift in Sources */,
 				8F52BD3C2ADEDA9600324666 /* Inject.swift in Sources */,
+				8FB327622AE034230052EE71 /* lichessSelectedPlayerRepository.swift in Sources */,
 				8F52BCFF2ADEC12900324666 /* HomeView.swift in Sources */,
 				8F52BD362ADECDA700324666 /* NavigationContracts.swift in Sources */,
 				8F52BD472ADEF58900324666 /* LichessApiResponse.swift in Sources */,
-				8F52BD502ADF091200324666 /* CoreDataPlayer.swift in Sources */,
 				8F52BD302ADEC98500324666 /* DependencyInitializer.swift in Sources */,
+				8FB3275D2AE01FE90052EE71 /* PlayerDetailsViewModel.swift in Sources */,
 				8F52BD332ADECCF100324666 /* MainNavigationManager.swift in Sources */,
 				8F52BD2E2ADEC80300324666 /* Container.swift in Sources */,
 				8F52BCFD2ADEC12900324666 /* lichess_personal_appApp.swift in Sources */,

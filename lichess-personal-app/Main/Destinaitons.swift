@@ -1,4 +1,4 @@
 import Foundation
 enum Destinations {
-    case home
+    case playerDetails
 }

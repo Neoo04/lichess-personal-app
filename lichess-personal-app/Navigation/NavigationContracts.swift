@@ -8,7 +8,7 @@ protocol NavigationDelegate {
     func push(destination: T)
 }
 
-protocol NavigationPublishe: ObservableObject {
+protocol NavigationPublisher: ObservableObject {
     associatedtype T where T: Hashable
     var path: Published<[T]>.Publisher { get }
 }

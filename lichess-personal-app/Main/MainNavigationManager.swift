@@ -5,12 +5,12 @@ protocol MainNavigationDelegate: AnyObject, NavigationDelegate {
 }
 
 class MainNavigationManager: MainNavigationDelegate, ObservableObject {
-
     typealias T = Destinations
+    
     @Published var path: [Destinations] = []
-
+    
     func push(destination: Destinations) {
-        DispatchQueue.main.asyncAfter(deadline: .now()) { [ weak self ] in
+        DispatchQueue.main.asyncAfter(deadline: .now()) { [weak self] in
             self?.path.append(destination)
         }
     }
@@ -29,5 +29,4 @@ class MainNavigationManager: MainNavigationDelegate, ObservableObject {
             }
         }
     }
-
 }
