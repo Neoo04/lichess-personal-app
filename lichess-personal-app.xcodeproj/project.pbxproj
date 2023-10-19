@@ -76,6 +76,7 @@
 		8FB3275F2AE0309C0052EE71 /* DetailedPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPlayer.swift; sourceTree = "<group>"; };
 		8FB327612AE034230052EE71 /* lichessSelectedPlayerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lichessSelectedPlayerRepository.swift; sourceTree = "<group>"; };
 		8FC163072ADFDBC4004FEA7E /* lichess-personal-app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "lichess-personal-app.xcdatamodel"; sourceTree = "<group>"; };
+		8FD1909F2AE195C000531E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +127,7 @@
 		8F52BCFB2ADEC12900324666 /* lichess-personal-app */ = {
 			isa = PBXGroup;
 			children = (
-				8FC163052ADFDB26004FEA7E /* Preview Content */,
+				8FD1909E2AE195C000531E65 /* Preview Content */,
 				8F52BD4B2ADF060900324666 /* LocalDataSources */,
 				8F52BD482ADF04EE00324666 /* ApiConfiguration */,
 				8F52BD442ADEF56200324666 /* Model */,
@@ -248,9 +249,10 @@
 			path = PlayerDetails;
 			sourceTree = "<group>";
 		};
-		8FC163052ADFDB26004FEA7E /* Preview Content */ = {
+		8FD1909E2AE195C000531E65 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				8FD1909F2AE195C000531E65 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";

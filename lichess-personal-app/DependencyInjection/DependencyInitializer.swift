@@ -19,7 +19,9 @@ class DependencyInitializer {
         container.register(URLSession.self) { URLSession.shared }
         container.register(JSONDecoder.self) { JSONDecoder() }
         container.register(LichessTopTenRepositoryContract.self) { LichessTopTenRepository() }
-        container.register(LichessSelectedPlayerRepositoryContract.self) { LichessSelectedPlayerRepository() }
+        // MARK: Changes requested
+        let sharedSelectedPlayerRepository = LichessSelectedPlayerRepository()
+        container.register(LichessSelectedPlayerRepositoryContract.self) { sharedSelectedPlayerRepository }
         container.register(HomeDisplayViewModel.self) { HomeDisplayViewModel() }
         container.register(PlayerDetailsViewModel.self) {PlayerDetailsViewModel()}
         let homeDisplayViewModel = HomeDisplayViewModel()
